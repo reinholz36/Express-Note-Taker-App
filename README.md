@@ -8,7 +8,8 @@ The application can be used to record and save notes. I created the back-end ser
   * Express.js
   * JavaScript
 
+Link to live site: https://morning-sea-06146.herokuapp.com/
 
-<a href="https://github.com/reinholz36/Team-Profile-Generator">
+<a href="https://morning-sea-06146.herokuapp.com/">
 <img src="./public/assets/images/notetakerbackground.jpg" alt="Express note taker app">
 </a>
