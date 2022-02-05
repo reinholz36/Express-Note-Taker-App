@@ -4,11 +4,13 @@ const router = require('express').Router();
 
 const { createNewNote, deleteNote } = require('../../lib/notes');
 
-const { notes } = require('../../db/notes');
+const notes = require('../../db/notes.json');
 
 router.get('/notes', (req, res) => {
     let result = (notes);
     res.send(result);
+    console.log(result);
+    console.log(notes);
 })
 
 router.post('/notes', (req, res) => {
